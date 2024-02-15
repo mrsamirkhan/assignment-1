@@ -1,0 +1,23 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+header{
+    text-align: center;
+}
+
+header > ul > li > a{
+    text-decoration: none;
+}
+ul>li{
+    list-style: none;
+    padding-right: 10px;
+    margin-right: 10px;
+   
+}
+
+
+header > ul{
+    display: flex;
+   
+}
