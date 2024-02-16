@@ -125,3 +125,39 @@ header>ul {
 }
 
 /* midnight part end */
+#portfolio{
+    width: 1320px;
+    margin: auto;
+
+}
+
+.img-wrap-1 .img-wrap-2{
+    display: flex;
+}
+
+.portfolio-img{
+    width: 400px;
+    margin: auto;
+    margin: 10px 10px;
+}
+
+.gifts{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: #c51414;
+}
+
+.portfolio-title{
+    font-size: 40px;
+    margin-top: 10px;
+    color: #040346;
+}
+
+.portfolio-msg{
+    width: 600px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #040346;
+}
