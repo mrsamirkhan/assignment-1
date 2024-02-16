@@ -1,7 +1,11 @@
+/* ========= Important things =========== */
 body{
     margin:0px;
     padding: 0px;
 }
+/* ==================== */
+
+/* header part start */
 header{
     text-align: center;
 }
@@ -21,3 +25,35 @@ header > ul{
     display: flex;
    
 }
+
+/* header part end  */
+
+/* Banner part start  */
+
+#banner{
+   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.699)), url("./images/Banner\ Image.png");
+   width: 1300px;
+   height: 600px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   border-radius: 15px;
+   margin: auto;
+}
+
+
+#banner > h3{
+    font-size: 30px;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#banner > h1{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+/* banner part end */
