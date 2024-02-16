@@ -111,7 +111,7 @@ header>ul {
     font-size: 18px;
     line-height: 30px;
     text-transform: capitalize;
-    color: antiquewhite;
+    color: rgba(250, 235, 215, 0.76);
     width: 40%;
 }
 
@@ -214,4 +214,62 @@ header>ul {
 }
 
 /* newsletter end */
+/* footer start */
+footer{
+    background-color: #010124;
+    padding: 100px 0px;
+}
+.footer-wrap{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.adress1{
+    width: 300px;
+    text-align: left;
+    color: #faebd7c0;
+    text-transform: capitalize;
+}
+
+.phone-text{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.website-text{
+    margin-left: 10px;
+}
+.phone{
+    display: flex;
+    text-align: left;
+    justify-content: baseline;
+    color: #faebd7c0;
+}
+
+.phone-img{
+    margin-bottom: 5px;
+}
+
+.hr{
+    width: 1320px;
+    border: 1px solid #faebd760;
+}
+.social-icons{
+    text-align: center; 
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icons{
+    width: 50px;
+    margin-left: 10px;
+}
+
+/* footer end  */
+
 
