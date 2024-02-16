@@ -134,13 +134,14 @@ header>ul {
 .img-wrap-1 .img-wrap-2{
     display: flex;
     align-items: center;
-    a
+    margin: auto;
+    
 }
 
 .portfolio-img{
     width: 400px;
     margin: auto;
-    margin: 10px 10px;
+    margin :10px 10px;
 }
 
 .gifts{
@@ -161,5 +162,56 @@ header>ul {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
+    color: #0403469f;
+}
+/* portfolio end */
+/* newsletter start */
+#newsletter{
+    width: 1320px;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+    background-color: moccasin;
+    margin-bottom: 200px;
+    padding: 70px 70px ;
+    border-radius: 20px;
+}
+
+.news-title{
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 0;
     color: #040346;
 }
+
+.news-msg{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    color: #0403469f;
+}
+.news-img{
+    width: 85px;
+}
+
+.news-bar{
+    border: none;
+    border-radius: 25px 0px 0px 25px;
+    padding: 20px 60px;
+}
+
+.news-btn{
+    border: none;
+    border-radius: 0px 25px 25px 0px ;
+    padding: 20px 60px;
+    margin: 0 -3px;
+    cursor: pointer;
+    background: #c51414;
+    color: antiquewhite;
+}
+
+/* newsletter end */
+
