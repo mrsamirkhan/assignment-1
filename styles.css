@@ -32,7 +32,7 @@ header > ul{
 
 #banner{
    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.699)), url("./images/Banner\ Image.png");
-   width: 1300px;
+   width: 1320px;
    height: 600px;
    background-repeat: no-repeat;
    background-position: center;
@@ -57,3 +57,31 @@ header > ul{
 }
 
 /* banner part end */
+/* Offer part start */
+#offer-section{
+    width: 1320px;
+    text-align: center;
+    margin: auto;
+}
+
+.offer-title{
+    font-size: 60px;
+    color: #db0c0c;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.offer-tagline{
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: #c51414;
+}
+
+.categories{
+    font-size: 35px;
+    margin-top: 0px;
+    color: #040346;
+}
+
+/* offer part end */
