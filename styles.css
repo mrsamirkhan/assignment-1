@@ -1,55 +1,57 @@
 /* ========= Important things =========== */
-body{
-    margin:0px;
+body {
+    margin: 0px;
     padding: 0px;
 }
+
 /* ==================== */
 
 /* header part start */
-header{
+header {
     text-align: center;
 }
 
-header > ul > li > a{
+header>ul>li>a {
     text-decoration: none;
 }
-ul>li{
+
+ul>li {
     list-style: none;
     padding-right: 10px;
     margin-right: 10px;
-   
+
 }
 
 
-header > ul{
+header>ul {
     display: flex;
-   
+
 }
 
 /* header part end  */
 
 /* Banner part start  */
 
-#banner{
-   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.699)), url("./images/Banner\ Image.png");
-   width: 1320px;
-   height: 600px;
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   border-radius: 15px;
-   margin: auto;
+#banner {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.699)), url("./images/Banner\ Image.png");
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    margin: auto;
 }
 
 
-#banner > h3{
+#banner>h3 {
     font-size: 30px;
     color: antiquewhite;
     text-align: center;
     padding-top: 150px;
 }
 
-#banner > h1{
+#banner>h1 {
     color: antiquewhite;
     text-align: center;
     font-size: 80px;
@@ -58,30 +60,68 @@ header > ul{
 
 /* banner part end */
 /* Offer part start */
-#offer-section{
+#offer-section {
     width: 1320px;
     text-align: center;
     margin: auto;
 }
 
-.offer-title{
+.offer-title {
     font-size: 60px;
     color: #db0c0c;
     margin-top: 70px;
     margin-bottom: 30px;
 }
 
-.offer-tagline{
+.offer-tagline {
     font-size: 22px;
     margin-top: 0px;
     margin-bottom: 15px;
     color: #c51414;
 }
 
-.categories{
+.categories {
     font-size: 35px;
     margin-top: 0px;
     color: #040346;
 }
 
 /* offer part end */
+/* midnight part */
+#midnight-party {
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    margin: auto;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.048)), url(images/Vectorrr.png);
+    padding-left: 90px;
+}
+
+.welcome-title {
+    font-size: 60px;
+    color: antiquewhite;
+    padding-top: 150px;
+    margin-bottom: 30px;
+}
+
+.party-msg {
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: antiquewhite;
+    width: 40%;
+}
+
+.midnight-btn {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background: none;
+    color: antiquewhite;
+}
+
+/* midnight part end */
